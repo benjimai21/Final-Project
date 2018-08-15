@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1244509870267842}
+  m_IsPrefabParent: 1
+--- !u!1 &1244509870267842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4658582342246886}
+  - component: {fileID: 114937005105098034}
+  - component: {fileID: 114386317371998776}
+  m_Layer: 0
+  m_Name: FullCortexLineModel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4658582342246886
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244509870267842}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114386317371998776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244509870267842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 905c36340060f1f4e9309a5e634df732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LineSegPrefab: {fileID: 1901694135164074, guid: 4c394a32eb7d45a47bab162754161e38,
+    type: 2}
+  m_LineModelObj: {fileID: 1244509870267842}
+  m_lineModelPrefab: {fileID: 1244509870267842}
+  m_meshMat: {fileID: 2100000, guid: 6515b43132510ef47b30038faf07cef3, type: 2}
+--- !u!114 &114937005105098034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244509870267842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81548160b1fdab843b4bc07003430bc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_fadeRate: 0
+  m_defaultVertexCol: {r: 0, g: 0, b: 1, a: 1}
+  m_activatedvertexCol: {r: 1, g: 0, b: 0, a: 1}
+  m_connectivityVertexCol: {r: 0, g: 0, b: 0, a: 0}
+  m_connectivityOutlineCol: {r: 0, g: 0, b: 0, a: 0}
+  m_OutlineModelObj: {fileID: 0}
+  m_steps: 0
+  m_connectionRange: 0
+  m_iterationDelay: 0
+  m_LineModelReader: {fileID: 0}
